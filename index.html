@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Cal Tracker</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav>
+            <div class="nav-wrapper blue">
+                <div class="container">
+                    <a href="#" class="brand-logo center"> Track Cal </a>
+                    <ul class="right">
+                        <li> <a href="#" class="clear-btn blue lighten-3"> Clear All</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+        <div class="container">
+            <div class="card">
+                <div class="card-content">
+                    <span class=card-title>Add Meal/Food</span>
+                    <form class="col">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input type="text" placeholder="Add item" id="item-name">
+                                <label for="item-name">Meal</label>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input type="text" placeholder="Add item" id="item-calories">
+                                    <label for="item-calories">Calories</label>
+                                </div>
+                                <button class="add-btn btn blue lighten-3">
+                                    <i class="fa fa-plus"></i> Add Meal
+                                </button>
+
+                                <!--  comment out update and delete -->
+                                <button class="update-btn btn orange lighten-3">
+                                    <i class="fa fa-pencil-square-o"></i> update meal
+                                </button>
+                                <button class="delete-btn btn red darken-3">
+                                    <i class="fa fa-remove"></i> delete
+                                </button>
+                                <button class="back-btn btn black  pull-right">
+                                    <i class="fa fa-chevron-circle-left"></i> back
+                                </button>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- calorie count -->
+        <h3 class="center-algign">Total Calories: <span class='total-calories'>
+                0
+            </span> </h3>
+
+            <!-- <footer class="footer">
+                <ul>
+                    <li>About</li>
+                    <li>Usage</li>
+                    <li>More info</li>
+                </ul>
+            </footer> -->
+    </div>
+
+    <!-- jQuery JS 3.1.0 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="src/app.js"></script>
+    <link rel="stylesheet" href="src/app.css">
+
+</body>
+
+</html>
