@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"/Users/jeffreyw/Desktop/wip/spike/node_modules/.bin/live-server"
-
+    "start": "./node_modules/.bin/live-server"
   },
   "keywords": [],
   "author": "",
@@ -15,3 +14,5 @@
     "live-server": "^1.2.1"
   }
 }
+
+
