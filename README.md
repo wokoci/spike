@@ -71,7 +71,7 @@ The accessibility inspector can also be seen when the when inspecting an element
 When tabbing through, the page, the location of the element that is focus gets missing along the way until the user enters into the Meal text box.
 The Buttons under the text boxes are also ignored when tabbing. Any easy way to check if the element received focus is to ask javascript with 'document.activeElement'. The active element will be highlighted when you mouse over the element returned in the javascript console. In this case the buttons did not receive focus.
 
-### Contrast
+### Contrast  [branch : contrast-changes]
 
 Contrast can be seen fairly easily, but a convenient way to check from the Firefox browser is to select 'all issues' from the Check for issues dropdown to the left of the developer console. This should highlight any issues identified by the browser.
 
