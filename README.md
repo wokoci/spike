@@ -77,7 +77,40 @@ Contrast can be seen fairly easily, but a convenient way to check from the Firef
 
 This indicates that there are 7 accessibility issue all related to contrast.
 
-![accessibility feedback from Firefox browser](images/contrastfeeedback.png)
+![accessibility feedback from Firefox browser](images/contrastfeedback.png)
 
 Image of issues reviled by Firefox browser
+
+We will work though the issues raised by firefox to resolve the contrast of the page. 
+
+Adding a bit of styling to the labels that were picked up by the Firefox accessibility tool resolved the issues with the labels 
+
+Changing the update button to blue which is same color are the other buttons on the page resolved the entire contrast problem with the page
+
+The following is an image of what the page looks like with the changes applied to the label ans well as the "Clear all' link.
+
+![after contrast fix'](/images/afterContrast.jpg)
+
+After contrast issues have been resolve
+
+
+## Navigation
+
+With contrast issue resolved, navigating around om the page is not very clear. The user is lost while navigating around the page and have no idea where their current input location is. 
+
+In addition to the navigation issue, the "Clear All" button is actually a link that has been styled as a button and is not focusable in firefox.
+
+With some slight styling changes, the active element is underlined with a light orange color making it possible for the user to know exactly where they are om the page.
+
+The following is an image of the underlining on the page
+
+![image of page after navigation helper](/images/navigationhelp.jpg)
+
+Image with button underlined
+
+
+
+
+
+
 

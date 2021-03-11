@@ -1,0 +1,27 @@
+.clear-btn {
+    font-weight: bold;
+}
+
+.row label {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* .orange {
+    color: white;
+    background-color: #cc6600;
+} */
+
+.button:focus {
+    background-color: orange;
+}
+
+.btn:focus {
+    border-bottom: 3px solid orange;
+}
+
+a:focus {
+    border-bottom: 3px solid orange;
+}
